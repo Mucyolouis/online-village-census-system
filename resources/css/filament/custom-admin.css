@@ -1,0 +1,26 @@
+.custom-register-container {
+    max-width: 800px;  /* Adjust as needed */
+    width: 100%;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.fi-page-auth-register {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #1f2937;  /* Matching the dark theme */
+}
+
+/* Make form elements larger */
+.custom-register-container .fi-input-wrp,
+.custom-register-container .fi-select-wrp {
+    font-size: 1.1rem;
+}
+
+/* Adjust button sizes */
+.custom-register-container .fi-btn {
+    padding: 0.75rem 1.5rem;
+    font-size: 1.1rem;
+}
